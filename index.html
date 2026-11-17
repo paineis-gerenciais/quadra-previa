@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <!-- Favicon provisório próprio (public/favicon.svg): sem ele o navegador pede /favicon.ico e recebe 404. Cabe na CSP (img-src 'self'). -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- PWA: o link do manifesto entra só pelo plugin (nos modos sem plugin daria 404). theme-color e apple-touch-icon valem em todos os modos (public/ é copiado em todos). -->
+    <meta name="theme-color" content="#FBF8F3" />
+    <link rel="apple-touch-icon" href="./icone-180.png" />
+    <title>Quadra</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <script type="module" crossorigin src="./assets/index-BdHjuvT0.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/jogo-quadra-DEADW6oV.js">
+    <link rel="stylesheet" crossorigin href="./assets/jogo-quadra-DLqJG_NL.css">
+  <link rel="manifest" href="./manifest.webmanifest"></head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
